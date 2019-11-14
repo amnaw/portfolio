@@ -31,6 +31,7 @@ h3 {
     font-family: 'Julius Sans One', sans-serif;
     margin-bottom: 7px;
     margin-top: 10px;
+    font-size: large;
 }
 
 h3 + a {
@@ -77,11 +78,6 @@ p.about-me {
     margin-bottom: 0px;
 }
 
-.featured-work-info {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .about-me-title {
     margin: 3vw;
     font-size: 2em;
@@ -93,6 +89,8 @@ p.about-me {
 }
 
 .featured-work-info {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
     display: block;
@@ -160,17 +158,22 @@ div {
     .container {
        width: 99%;
     }
+    
 }
-
+@media screen and (max-width: 950px){
+    h3 {
+        font-size: medium;
+    }
+}
 @media screen and (max-width: 750px){
     .featured-work-info {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .work-photo {
-        margin: auto;
+        /*margin: auto;*/
         width: 50%;
     }
 
