@@ -4,4 +4,9 @@ This project is the first project of the Udacity Front-End Web Developer Nanodeg
 and it is a responsive website that display images, descriptions and links to each of the portfolio projects, 
 and this website looks good on all devices ;)
 
+## Dependencies
+
+1. Bootstrap
+2. Font Awesome
+
 #### this portfolio will be always under development since I'll always learning new things ;)
