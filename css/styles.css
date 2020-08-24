@@ -294,6 +294,14 @@ div {
     }
 }
 
+.nav-link {
+    margin: 0px;
+}
+
+.fa {
+    font-size: larger;
+}
+
 
 
 
